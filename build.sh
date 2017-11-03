@@ -25,12 +25,12 @@ make install
 popd
 
 ##### ios armv7 arm64
-mkdir -p build-ios
-pushd build-ios
-cmake -DCMAKE_TOOLCHAIN_FILE=../iosxc.toolchain.cmake ..
-make
-make install
-popd
+# mkdir -p build-ios
+# pushd build-ios
+# cmake -DCMAKE_TOOLCHAIN_FILE=../iosxc.toolchain.cmake ..
+# make
+# make install
+# popd
 
 ##### ios simulator i386 x86_64
 mkdir -p build-ios-sim
